@@ -116,3 +116,66 @@ section{
     font-size: 20px;
     margin-left: 10px;
 }
+
+/* event section styles */
+.event{
+    background: linear-gradient(to bottom, #ff00003b, #ff000000);
+    padding: 100px 300px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: semi-bold;
+}
+
+.event-container span{
+    color: red;
+}
+
+.event button{
+    background-color: #FF0000;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px 32px;
+    margin-top: 40px;
+}
+
+/* upcoming offer section styles */
+.upcoming-offer{
+    display: flex;
+    align-items: center;
+}
+
+.offer-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.offer-subtitle{
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0 auto;
+}
+
+.offer-description{
+    font-size: 18px;
+    color: #070211b2;
+    margin-top: 20px;
+}
+
+.offer-img{
+    border: red 15px solid;
+    border-radius: 50%;
+    padding: 40px;
+    margin: auto 100px auto 80px;
+}
+
+.date-title{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
