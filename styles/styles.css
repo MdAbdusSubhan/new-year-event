@@ -223,3 +223,35 @@ span{
     object-fit: cover;
     padding: 100px;
 }
+
+/* portfolio section styles */
+.portfolio-intro{
+    color: red;
+    font-style: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.portfolio-title{
+    font-size: 38px;
+    font-weight: 900;
+    margin: 18px auto;
+}
+
+.portfolio-description{
+    font-size: 16px;
+    color: #070211b4;
+    margin: 0 400px 40px 0;
+}
+
+.product-container{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    
+}
+
+.product-image{
+    width: 30%;
+}
