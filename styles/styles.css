@@ -21,7 +21,7 @@ main{
     margin: 50px auto 0;
 }
 
-.main section{
+section{
     margin-bottom: 120px;
 }
 
@@ -29,12 +29,13 @@ main{
 /* celebration section styles */
 .celebration{
     background: linear-gradient(to bottom, #070211, #07021100), url("../images/Banner\ Image.png");
-    background-size: cover, contain;
+    background-size: contain, cover;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 16px;
     text-align: center;
     align-items: center;
-    max-height: 500px;
+    /* max-height: 500px; */
     color: white;
     padding: 170px 300px;
 }
@@ -77,4 +78,41 @@ main{
     color: #070211 ;
     margin-top: 16px;
     margin-bottom: 45px;
+}
+
+
+/* party section styles */
+.party{
+    background: linear-gradient(to right, #070211, #07021100), url("../images/Vectorrr.png");
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+    /* max-height: 500px; */
+    margin-top: 120px;
+    padding: 125px 125px;
+    display: flex;
+    gap: 40px;
+}
+
+.party-title{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.party-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0 auto 40px;
+}
+
+.party button{
+    background: none;
+    border: none;
+    color: white;
+    font-weight:500;
+    font-size: 20px;
+    margin-left: 10px;
 }
