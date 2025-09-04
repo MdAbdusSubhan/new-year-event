@@ -1,4 +1,9 @@
 
+.inter-primary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 
 .merriweather-secondary {
@@ -14,6 +19,10 @@ main{
     
     max-width: 1100px;
     margin: 50px auto 0;
+}
+
+.main section{
+    margin-bottom: 120px;
 }
 
 
@@ -38,4 +47,34 @@ main{
 .celebration-description{
     font-size: 52px;
     margin-top: 0;
+}
+
+
+/* off section styles */
+.off{
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.off-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 45px;
+}
+
+.off-subtitle{
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 500;
+    margin-bottom: 0 auto;
+}
+
+.off-description{
+    font-size: 45px;
+    font-weight: bold;
+    color: #070211 ;
+    margin-top: 16px;
+    margin-bottom: 45px;
 }
