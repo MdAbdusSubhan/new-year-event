@@ -255,3 +255,76 @@ span{
 .product-image{
     width: 30%;
 }
+
+
+/* newsletter section styles */
+.newsletter{
+    background-color: #ff000011;
+    padding: 80px 200px;
+}
+
+.newsletter-container{
+    text-align: center;
+}
+
+.newsletter-title{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 18px;
+}
+
+.newsletter-description{
+    font-size: 16px;
+    color: #070211a4;
+    margin-top: 0;
+}
+
+#email{
+    padding: 20px 30px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+
+.newsletter form button{
+    padding: 20px 25px;
+    border: none;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 0 50px 50px 0;
+}
+
+
+/* footer styles */
+footer{
+    background-color: #070211;
+    color: white;
+    padding: 100px 120px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+footer hr{
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 40px auto;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
